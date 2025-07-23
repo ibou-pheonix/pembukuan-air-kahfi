@@ -2,8 +2,6 @@ name: Build Kahfi APK
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
 
 jobs:
   build:
@@ -34,3 +32,4 @@ jobs:
         with:
           name: Kahfi-APK
           path: build/app/outputs/flutter-apk/app-release.apk
+
